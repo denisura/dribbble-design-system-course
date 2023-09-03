@@ -1,0 +1,45 @@
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    color: #222C2A;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    margin-top: 0;
+    line-height: 1.1;
+}
+
+.breadcrumbs {
+    padding: 1em 0;
+}
+
+.breadcrumbs__link {
+    font-size: 1.125rem;
+    line-height: 1.25;
+}
+
+footer {
+    padding: 4em 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1128px;
+}
