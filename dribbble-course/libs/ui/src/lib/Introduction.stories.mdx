@@ -1,0 +1,38 @@
+import { Meta } from '@storybook/blocks';
+
+<Meta title="Case Study/How to use Header" />
+
+# How to use Header Component on your pages
+
+This page explores details on the usage of Header React component defined in UI components.
+
+The Header displays information relating to the current screen. It's used for branding and screen titles.
+
+## Create new react application
+
+```
+yarn nx g @nrwl/react:app my-app
+```
+
+## Import component
+
+```
+import { Header } from '@dribbble-course/ui';
+```
+
+## Header usage
+
+Place component tag in render function of your application. Set text of the header in property title.
+
+```
+<Header title="My App"/>
+```
+
+## Adjust header to custom branding
+
+To customize header appearance define style in css class and pass classname as propery.
+Style is applied to the root element of the header
+
+```
+<Header title="My App" classname="rounded"/>
+```
