@@ -2,7 +2,9 @@
   "name": "@dribbble-course/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "chromatic": "npx chromatic --project-token=chpt_554f16f05a94955 -d=dist/storybook/storybook-host"
+  },
   "private": true,
   "dependencies": {
     "@swc/helpers": "~0.5.0",
